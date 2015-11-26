@@ -542,6 +542,7 @@ bool HttpConnection_t::_DetectVerbAndSetEnvString (const char *request, int verb
 		"GET",
 		"POST",
 		"PUT",
+		"PATCH",
 		"DELETE",
 		"HEAD",
 		"OPTIONS"
